@@ -1,0 +1,156 @@
+*{
+    box-sizing: border-box;
+}
+
+.header{
+    position: relative;
+    background-color: dimgrey;
+    padding: 25px;
+}
+
+.logo{
+    float: left;
+}
+
+.logo img{
+    width: 80px;
+    height: 80px;
+}
+
+.navmenu{
+}
+
+.navmenu__item{
+    display: inline-block;
+    width: 80px;
+    margin: 25px;
+}
+
+.signIn{
+    position: absolute;
+    float: right;
+    width: 270px;
+    right: 0;
+    top: 50px;
+}
+
+.signIn_item{
+    display: inline-block;
+    margin: 5px;
+}
+
+.signIn_item input{
+    width: 80px;
+}
+
+.item{
+    height: 300px;
+}
+
+.item img{
+    height: 100%;
+}
+
+.owl-prev{
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    height: 300px;
+    width: 40px;
+    background-color: rgba(122, 122, 122, 0.5);
+}
+
+.owl-next{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    height: 300px;
+    width: 40px;
+    background-color: rgba(122, 122, 122, 0.5);
+}
+
+.owl-carousel{
+    padding: 1%;
+}
+
+.inform{
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.inform__blocks{
+    position: relative;
+    display: inline-block;
+    width: 400px;
+    height: 200px;
+    margin: 15px;
+    overflow: hidden;
+}
+
+.inform__blocks img{
+    height: 100%;
+    width: 100%;
+}
+
+.headInform{
+    position: absolute;
+    width: 100%;
+    height: 20px;
+    left: 0;
+    bottom: 0;
+    color: #f7f7f7;
+    background-color: rgba(120, 120, 120, 0.5);
+}
+
+.hide{
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 20px;
+    left: 0;
+    bottom: 0;
+    color: #f7f7f7;
+    background-color: rgba(120, 120, 120, 0.5);
+}
+
+.main{
+    width: 615px;
+    height: 300px;
+}
+
+.inform__blocks--main img{
+    height: 100%;
+}
+
+.footer{
+    height: 80px;
+    background-color: dimgrey;
+}
+
+.footer span{
+    margin-left: 45%;
+}
+
+.menu_item-footer{
+    display: inline-block;
+    width: 100px;
+}
+
+
+.clear-fix:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('../fonts/helveticaneuecyr-light-webfont.eot');
+    src: url('../fonts/helveticaneuecyr-light-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/helveticaneuecyr-light-webfont.woff2') format('woff2'),
+    url('../fonts/helveticaneuecyr-light-webfont.woff') format('woff'),
+    url('../fonts/helveticaneuecyr-light-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
