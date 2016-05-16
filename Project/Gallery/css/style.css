@@ -1,0 +1,77 @@
+*{
+    list-style: none;
+}
+
+.header{
+    position: relative;
+    background-color: dimgrey;
+    padding: 25px;
+}
+
+.logo{
+    float: left;
+}
+
+.header img{
+    width: 80px;
+    height: 80px;
+}
+
+.navmenu__item{
+    display: inline-block;
+    width: 80px;
+    margin: 25px;
+}
+
+.navmenu__item a{
+    color: lavender;
+    text-decoration: none
+}
+
+.signIn{
+    position: absolute;
+    float: right;
+    width: 270px;
+    right: 0;
+    top: 50px;
+}
+
+.signIn_item{
+    display: inline-block;
+    margin: 5px;
+}
+
+.signIn_item input{
+    width: 80px;
+}
+
+.content{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.gallery__theme{
+    display: inline-block;
+    width: 500px;
+    height: 200px;
+    margin: 40px;
+}
+
+.gallery__theme img{
+    width: 100%;
+    height: 100%;
+}
+
+.footer{
+    height: 80px;
+    background-color: dimgrey;
+}
+
+.footer span{
+    margin-left: 45%;
+}
+
+.menu_item-footer{
+    display: inline-block;
+    width: 100px;
+}
